@@ -7,12 +7,12 @@ Aplicación web para calcular el volumen de figuras geométricas con visualizaci
 ## Estado actual del proyecto
 
 - [x] Diseño de mockups / prototipos
-- [ ] Estructura HTML
-- [ ] Estilos CSS
-- [ ] Lógica de cálculo (JavaScript)
-- [ ] Rotación de figuras
-- [ ] Diseño responsivo
-- [ ] Pruebas y documentación final
+- [x] Estructura HTML
+- [x] Estilos CSS
+- [x] Lógica de cálculo (JavaScript)
+- [x] Rotación de figuras
+- [x] Diseño responsivo
+- [x] Pruebas y documentación final
 
 ## Descripción del proyecto
 
@@ -38,10 +38,41 @@ A continuación se muestran los archivos correspondientes a este primer avance:
 [Mockup Calculadora esfera](esfera.png)
 
 ### Prototipos HTML
-*(Aquí pondrás los enlaces a tus archivos HTML)*
 [HTML cilindro](cilindro.html)
 [HTML cubo](cubo.html)
 [HTML esfera](esfera.html)
+
+## Avance 2 - Estructura HTML
+
+Se ha creado y definido la estructura HTML para la pagina final, se ha decidido crear todo el HTML en un solo index, con el uso de etiquetas sematicas y etiquetas <div> para facilitar su lectura y organizacion, este index incluye el texto de la pagina completa y sus tres figuras, (cubo, esfera y cilindro). A continuacion se muestra el archivo de este avance.
+
+## index.HTML
+[index.HTML].(
+
+## Avance 3 - Estilos CSS
+
+Se ha definido el estilo css de la pagina final, se tomo el estilo de mockup del protipo como estetica principal usando colores oscuros y frios para un diseño neon y minimalista, dando prioridad a la sencillez para la comodidad del usuario. A continuacion se muestra el archivo de este avance.
+
+## Estilos CSS
+[style.css].(
+
+## Avance 4 - Logica de calculo (javascript)
+
+Se ha decidido crear la logica de calculo para las figuras usando javascript, se usaran diferentes formulas para cada una de las tres figuras.
+-Cubo: V = 5 × 5 × 5
+-Esfera: V = (4/3) × π × 3³
+-Cilindro: V = π × 2² × 10
+A continuacion se muestra el archivo de este avance.
+
+## Logica de calculo
+[js].(
+
+## Avance 5 - Rotacion de figuras
+
+Se han creado las tres figuras geometricas de la pagina (cubo, esfera y cilindro) usando p5js para sus animaciones en 3D, las figuras son moviles en todo angulo y dirrecion, aumentando y reduciendo su tamaño en base a la logica de calculo. A continuacion se muestra el archivo de este avance.
+
+## Rotacion de figuras
+[js].(
 
 ## Autor
 
