@@ -47,14 +47,14 @@ A continuación se muestran los archivos correspondientes a este primer avance:
 Se ha creado y definido la estructura HTML para la pagina final, se ha decidido crear todo el HTML en un solo index, con el uso de etiquetas sematicas y etiquetas <div> para facilitar su lectura y organizacion, este index incluye el texto de la pagina completa y sus tres figuras, (cubo, esfera y cilindro). A continuacion se muestra el archivo de este avance.
 
 ## index.HTML
-[index.HTML].(index.html)
+[index.HTML](index.html)
 
 ## Avance 3 - Estilos CSS
 
 Se ha definido el estilo css de la pagina final, se tomo el estilo de mockup del protipo como estetica principal usando colores oscuros y frios para un diseño neon y minimalista, dando prioridad a la sencillez para la comodidad del usuario. A continuacion se muestra el archivo de este avance.
 
 ## Estilos CSS
-[style.css].(style.css)
+[style.css](style.css)
 
 ## Avance 4 - Logica de calculo (javascript)
 
@@ -65,14 +65,14 @@ Se ha decidido crear la logica de calculo para las figuras usando javascript, se
 A continuacion se muestra el archivo de este avance.
 
 ## Logica de calculo
-[js].(script.js)
+[js](script.js)
 
 ## Avance 5 - Rotacion de figuras
 
 Se han creado las tres figuras geometricas de la pagina (cubo, esfera y cilindro) usando p5js para sus animaciones en 3D, las figuras son moviles en todo angulo y dirrecion, aumentando y reduciendo su tamaño en base a la logica de calculo. A continuacion se muestra el archivo de este avance.
 
 ## Rotacion de figuras
-[js].(script.js)
+[js](script.js)
 
 ## Diseño responsivo y pruebas finales
 
