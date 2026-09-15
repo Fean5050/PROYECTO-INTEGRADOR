@@ -11,8 +11,8 @@ Aplicación web para calcular el volumen de figuras geométricas con visualizaci
 - [x] Estilos CSS
 - [x] Lógica de cálculo (JavaScript)
 - [x] Rotación de figuras
-- [x] Diseño responsivo
-- [x] Pruebas y documentación final
+- [x] Diseño responsivo y Pruebas finales
+- [x] Documentación final
 
 ## Descripción del proyecto
 
@@ -47,14 +47,14 @@ A continuación se muestran los archivos correspondientes a este primer avance:
 Se ha creado y definido la estructura HTML para la pagina final, se ha decidido crear todo el HTML en un solo index, con el uso de etiquetas sematicas y etiquetas <div> para facilitar su lectura y organizacion, este index incluye el texto de la pagina completa y sus tres figuras, (cubo, esfera y cilindro). A continuacion se muestra el archivo de este avance.
 
 ## index.HTML
-[index.HTML].(
+[index.HTML].(index.html)
 
 ## Avance 3 - Estilos CSS
 
 Se ha definido el estilo css de la pagina final, se tomo el estilo de mockup del protipo como estetica principal usando colores oscuros y frios para un diseño neon y minimalista, dando prioridad a la sencillez para la comodidad del usuario. A continuacion se muestra el archivo de este avance.
 
 ## Estilos CSS
-[style.css].(
+[style.css].(style.css)
 
 ## Avance 4 - Logica de calculo (javascript)
 
@@ -65,14 +65,23 @@ Se ha decidido crear la logica de calculo para las figuras usando javascript, se
 A continuacion se muestra el archivo de este avance.
 
 ## Logica de calculo
-[js].(
+[js].(script.js)
 
 ## Avance 5 - Rotacion de figuras
 
 Se han creado las tres figuras geometricas de la pagina (cubo, esfera y cilindro) usando p5js para sus animaciones en 3D, las figuras son moviles en todo angulo y dirrecion, aumentando y reduciendo su tamaño en base a la logica de calculo. A continuacion se muestra el archivo de este avance.
 
 ## Rotacion de figuras
-[js].(
+[js].(script.js)
+
+## Diseño responsivo y pruebas finales
+
+Tras finalizar el desarrollo de la pagina y probarla durante tiempo extendido, se confirma que todas sus funciones peermanecen utilizables "botones, barras, calculo de figuras y figuras 3D moviles".
+
+## Documentacion final
+
+Inicia el desarrollo de la documentacion fianl del desarrollo del proyecto el cual consta de dos fases.
+Documento README.md y archivo word de presentacion siguiendo las normas INCONTEC.
 
 ## Autor
 
