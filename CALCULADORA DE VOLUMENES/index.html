@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>VoluMetric - Calculadora de Figuras Geométricas</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    
+    <link rel="stylesheet" href="css\style.css"/>
+</head>
+<body>
+    <nav>
+        <header>
+            <div class="icon-circle">
+                <span class="material-symbols-outlined">category</span>
+            </div>
+            <div>
+                <h1>Geometric Shapes</h1>
+                <p>Select a figure</p>
+            </div>
+        </header>
+        
+        <ul>
+            <li>
+                <a href="#" class="active" data-shape="cube">
+                    <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">view_in_ar</span>
+                    Cube
+                </a>
+            </li>
+            <li>
+                <a href="#" data-shape="sphere">
+                    <span class="material-symbols-outlined">blur_on</span>
+                    Sphere
+                </a>
+            </li>
+            <li>
+                <a href="#" data-shape="cylinder">
+                    <span class="material-symbols-outlined">view_column</span>
+                    Cylinder
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <div>
+                <h2 id="shapeTitle">Cube Volume Calculator</h2>
+                <p id="shapeFormula">Formula: V = a³</p>
+            </div>
+            <div class="unit-badge">Unit: cm</div>
+        </header>
+
+        <div class="grid">
+            <section class="inputs-section">
+                <h3>Dimensions</h3>
+                
+                <!-- Inputs dinámicos según la figura -->
+                <div id="inputsContainer"></div>
+
+                <div class="calculation-box">
+                    <p>Instant Calculation</p>
+                    <p id="calcStep">V = 5 × 5 × 5</p>
+                </div>
+            </section>
+
+            <section class="results-section">
+                <article class="result-card">
+                    <h3>Total Volume</h3>
+                    <div>
+                        <span class="result-value" id="resultValue">125</span>
+                        <span class="result-unit">cm³</span>
+                    </div>
+                </article>
+
+                <article class="preview-card">
+                    <h3>Live 3D Preview (Drag to rotate)</h3>
+                    <div id="p5-canvas-container"></div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
